@@ -16,7 +16,9 @@ class Schema(BaseModel):
     medical_device: str
 
 
-system = """
+PIL_system = """
+Extract the information provided in the schema.
+
 format:
 Package leaflet: Information for the patient
 {(Invented name) (Strength(s)) (Pharmaceutical form)}
@@ -27,9 +29,38 @@ Notes:
 2.Full name will include the Invented name, Strength(s) and Pharmaceutical(s) form but the Invented name will not include the Strength(s) and Pharmaceutical form(s).
 3.Invented name is usually the very first word or two words following the statement package information: for the patient and its just a brand name.
 
-Extract the information provided in the schema.
 """
-def get_header_LLM(header_chunk):
+
+
+spmc_system_prompt = """
+Extract the information provided in the schema.
+
+format:
+PACKAGE INSERT
+{(invented_name)}
+{Active substance(s) (Pharmaceutical form)} 
+
+NAME OF THE MEDICINAL PRODUCT
+
+<user>note :if there is multiple dosages the full name will be repeated for each dosage</user>
+
+{(Full name)}
+
+{(Full name)}
+
+DOSAGE FORMS AND STRENGTHS
+{(Pharmaceutical form) (Strength(s))} 
+
+COMPOSITION
+{(invented_name) (Strength)}
+
+<user>remaining content is about the what the medicine is made up of</user>
+"""
+def get_header_LLM(header_chunk , smpc = False):
+    if smpc:
+        system = spmc_system_prompt
+    else:
+        system = PIL_system
     prompt = ""
     for line in header_chunk:
         prompt += line + "\n"

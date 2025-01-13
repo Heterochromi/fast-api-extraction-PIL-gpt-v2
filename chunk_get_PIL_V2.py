@@ -117,6 +117,7 @@ def get_PIL(content , lang = "en"):
         result.update({"what_is_in_this_leaflet_section": what_is_in_this_leaflet_content_html})
         header_section = get_header_html_section(header_content , lang=lang)
         result.update({"header_section": header_section})
+
     except(Exception) as e:
         if bool(what_is_in_this_leaflet_content) == False:
           result.update({"what_is_in_this_leaflet_section": None})
@@ -144,7 +145,7 @@ def get_PIL(content , lang = "en"):
         print (e , {"error": "failed to get ATC code"})
 
     try:
-        routes = get_adminstration_routes_array(all_sections)
+        routes = get_adminstration_routes_array(all_sections[2])
         result.update({"routes": routes})
     except(Exception) as e:
         result.update({"routes": None})
@@ -166,7 +167,7 @@ def get_PIL(content , lang = "en"):
         result.update({"sections": html_sections})
     except(Exception) as e:
         result.update({"sections": "failed to geenrate sections"})
-        print (e , {"error": "failed to generate HTML"})
+        print (e , {"error": "failed to generate HTML , LLM failed"})
     print(result)
     
     # result.update({"sections": html_sections ,"header": header , "routes": routes ,"atc_code": atc_code , "legalSupplyStatus": supply_status , "MAH_details": MAH_details , "header_section": header_section , "what_is_in_this_leaflet_section": what_is_in_this_leaflet_content_html })
@@ -211,7 +212,7 @@ def get_PIL_ar(content , lang = "ar"):
         result.update({"sections": html_sections})
     except(Exception) as e:
         result.update({"sections": "failed to geenrate sections"})
-        print (e , {"error": "failed to generate HTML"})
+        print (e , {"error": "failed to generate HTML , LLM failed"})
     print(result)
     # print(header_html)
 
