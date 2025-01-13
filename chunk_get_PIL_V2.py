@@ -170,7 +170,7 @@ def get_PIL(content , lang = "en"):
     print(result)
     
     # result.update({"sections": html_sections ,"header": header , "routes": routes ,"atc_code": atc_code , "legalSupplyStatus": supply_status , "MAH_details": MAH_details , "header_section": header_section , "what_is_in_this_leaflet_section": what_is_in_this_leaflet_content_html })
-    return 
+    return result
 
 
 def get_PIL_ar(content , lang = "ar"):
@@ -217,6 +217,7 @@ def get_PIL_ar(content , lang = "ar"):
 
     # #all header section details
     result.update({"Mah_deatils":None , "routes":None})
+    return result
 
     # result.update({"header": header , "routes": routes , "legalSupplyStatus": supply_status , "MAH_details": MAH_details , "header_section": header_section , "what_is_in_this_leaflet_section": what_is_in_this_leaflet_content_html })
 

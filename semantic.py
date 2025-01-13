@@ -6,7 +6,7 @@ from extractUtils import remove_extra_spaces
 model_name = "silma-ai/silma-embeddding-matryoshka-0.1"
 model_ar = SentenceTransformer(model_name)
 
-# model_name = "BAAI/bge-large-en-v1.5"
+model_name = "BAAI/bge-large-en-v1.5"
 model_name = "BAAI/bge-small-en-v1.5"
 model_en = SentenceTransformer(model_name)
 

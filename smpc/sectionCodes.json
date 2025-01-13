@@ -1,0 +1,549 @@
+{
+  "sections": [
+    {
+      "Code": "34086-9",
+      "System_link": "http://loinc.org",
+      "Display": "ABUSE SECTION"
+    },
+    {
+      "Code": "60555-0",
+      "System_link": "http://loinc.org",
+      "Display": "ACCESSORIES"
+    },
+    {
+      "Code": "34084-4",
+      "System_link": "http://loinc.org",
+      "Display": "ADVERSE REACTIONS SECTION"
+    },
+    {
+      "Code": "69761-5",
+      "System_link": "http://loinc.org",
+      "Display": "ALARMS"
+    },
+    {
+      "Code": "34091-9",
+      "System_link": "http://loinc.org",
+      "Display": "ANIMAL PHARMACOLOGY & OR TOXICOLOGY SECTION"
+    },
+    {
+      "Code": "60556-8",
+      "System_link": "http://loinc.org",
+      "Display": "ASSEMBLY OR INSTALLATION INSTRUCTIONS"
+    },
+    {
+      "Code": "34066-1",
+      "System_link": "http://loinc.org",
+      "Display": "BOXED WARNING SECTION"
+    },
+    {
+      "Code": "60557-6",
+      "System_link": "http://loinc.org",
+      "Display": "CALIBRATION INSTRUCTIONS"
+    },
+    {
+      "Code": "34083-6",
+      "System_link": "http://loinc.org",
+      "Display": "CARCINOGENESIS & MUTAGENESIS & IMPAIRMENT OF FERTILITY SECTION"
+    },
+    {
+      "Code": "34090-1",
+      "System_link": "http://loinc.org",
+      "Display": "CLINICAL PHARMACOLOGY SECTION"
+    },
+    {
+      "Code": "60558-4",
+      "System_link": "http://loinc.org",
+      "Display": "CLEANING, DISINFECTING, AND STERILIZATION INSTRUCTIONS"
+    },
+    {
+      "Code": "34092-7",
+      "System_link": "http://loinc.org",
+      "Display": "CLINICAL STUDIES SECTION"
+    },
+    {
+      "Code": "90374-0",
+      "System_link": "http://loinc.org",
+      "Display": "CLINICAL TRIALS EXPERIENCE SECTION"
+    },
+    {
+      "Code": "69760-7",
+      "System_link": "http://loinc.org",
+      "Display": "COMPATIBLE ACCESSORIES"
+    },
+    {
+      "Code": "60559-2",
+      "System_link": "http://loinc.org",
+      "Display": "COMPONENTS"
+    },
+    {
+      "Code": "34070-3",
+      "System_link": "http://loinc.org",
+      "Display": "CONTRAINDICATIONS SECTION"
+    },
+    {
+      "Code": "34085-1",
+      "System_link": "http://loinc.org",
+      "Display": "CONTROLLED SUBSTANCE SECTION"
+    },
+    {
+      "Code": "34087-7",
+      "System_link": "http://loinc.org",
+      "Display": "DEPENDENCE SECTION"
+    },
+    {
+      "Code": "34089-3",
+      "System_link": "http://loinc.org",
+      "Display": "DESCRIPTION SECTION"
+    },
+    {
+      "Code": "69758-1",
+      "System_link": "http://loinc.org",
+      "Display": "DIAGRAM OF DEVICE"
+    },
+    {
+      "Code": "69763-1",
+      "System_link": "http://loinc.org",
+      "Display": "DISPOSAL AND WASTE HANDLING"
+    },
+    {
+      "Code": "34068-7",
+      "System_link": "http://loinc.org",
+      "Display": "DOSAGE & ADMINISTRATION SECTION"
+    },
+    {
+      "Code": "43678-2",
+      "System_link": "http://loinc.org",
+      "Display": "DOSAGE FORMS & STRENGTHS SECTION"
+    },
+    {
+      "Code": "34074-5",
+      "System_link": "http://loinc.org",
+      "Display": "DRUG & OR LABORATORY TEST INTERACTIONS SECTION"
+    },
+    {
+      "Code": "42227-9",
+      "System_link": "http://loinc.org",
+      "Display": "DRUG ABUSE AND DEPENDENCE SECTION"
+    },
+    {
+      "Code": "34073-7",
+      "System_link": "http://loinc.org",
+      "Display": "DRUG INTERACTIONS SECTION"
+    },
+    {
+      "Code": "50742-6",
+      "System_link": "http://loinc.org",
+      "Display": "ENVIRONMENTAL WARNING SECTION"
+    },
+    {
+      "Code": "77291-3",
+      "System_link": "http://loinc.org",
+      "Display": "FEMALES & MALES OF REPRODUCTIVE POTENTIAL SECTION"
+    },
+    {
+      "Code": "50743-4",
+      "System_link": "http://loinc.org",
+      "Display": "FOOD SAFETY WARNING SECTION"
+    },
+    {
+      "Code": "34072-9",
+      "System_link": "http://loinc.org",
+      "Display": "GENERAL PRECAUTIONS SECTION"
+    },
+    {
+      "Code": "34082-8",
+      "System_link": "http://loinc.org",
+      "Display": "GERIATRIC USE SECTION"
+    },
+    {
+      "Code": "50740-0",
+      "System_link": "http://loinc.org",
+      "Display": "GUARANTEED ANALYSIS OF FEED SECTION"
+    },
+    {
+      "Code": "71744-7",
+      "System_link": "http://loinc.org",
+      "Display": "HEALTH CARE PROVIDER LETTER SECTION"
+    },
+    {
+      "Code": "69719-3",
+      "System_link": "http://loinc.org",
+      "Display": "HEALTH CLAIM SECTION"
+    },
+    {
+      "Code": "88829-7",
+      "System_link": "http://loinc.org",
+      "Display": "HEPATIC IMPAIRMENT SUBSECTION"
+    },
+    {
+      "Code": "34069-5",
+      "System_link": "http://loinc.org",
+      "Display": "HOW SUPPLIED SECTION"
+    },
+    {
+      "Code": "88830-5",
+      "System_link": "http://loinc.org",
+      "Display": "IMMUNOGENICITY"
+    },
+    {
+      "Code": "51727-6",
+      "System_link": "http://loinc.org",
+      "Display": "INACTIVE INGREDIENT SECTION"
+    },
+    {
+      "Code": "34067-9",
+      "System_link": "http://loinc.org",
+      "Display": "INDICATIONS & USAGE SECTION"
+    },
+    {
+      "Code": "50744-2",
+      "System_link": "http://loinc.org",
+      "Display": "INFORMATION FOR OWNERS/CAREGIVERS SECTION"
+    },
+    {
+      "Code": "34076-0",
+      "System_link": "http://loinc.org",
+      "Display": "INFORMATION FOR PATIENTS SECTION"
+    },
+    {
+      "Code": "59845-8",
+      "System_link": "http://loinc.org",
+      "Display": "INSTRUCTIONS FOR USE SECTION"
+    },
+    {
+      "Code": "60560-0",
+      "System_link": "http://loinc.org",
+      "Display": "INTENDED USE OF THE DEVICE"
+    },
+    {
+      "Code": "34079-4",
+      "System_link": "http://loinc.org",
+      "Display": "LABOR & DELIVERY SECTION"
+    },
+    {
+      "Code": "34075-2",
+      "System_link": "http://loinc.org",
+      "Display": "LABORATORY TESTS SECTION"
+    },
+    {
+      "Code": "77290-5",
+      "System_link": "http://loinc.org",
+      "Display": "LACTATION SECTION"
+    },
+    {
+      "Code": "43679-0",
+      "System_link": "http://loinc.org",
+      "Display": "MECHANISM OF ACTION SECTION"
+    },
+    {
+      "Code": "49489-8",
+      "System_link": "http://loinc.org",
+      "Display": "MICROBIOLOGY SECTION"
+    },
+    {
+      "Code": "43680-8",
+      "System_link": "http://loinc.org",
+      "Display": "NONCLINICAL TOXICOLOGY SECTION"
+    },
+    {
+      "Code": "34078-6",
+      "System_link": "http://loinc.org",
+      "Display": "NONTERATOGENIC EFFECTS SECTION"
+    },
+    {
+      "Code": "34080-2",
+      "System_link": "http://loinc.org",
+      "Display": "NURSING MOTHERS SECTION"
+    },
+    {
+      "Code": "60561-8",
+      "System_link": "http://loinc.org",
+      "Display": "OTHER SAFETY INFORMATION"
+    },
+    {
+      "Code": "34088-5",
+      "System_link": "http://loinc.org",
+      "Display": "OVERDOSAGE SECTION"
+    },
+    {
+      "Code": "55106-9",
+      "System_link": "http://loinc.org",
+      "Display": "OTC - ACTIVE INGREDIENT SECTION"
+    },
+    {
+      "Code": "50569-3",
+      "System_link": "http://loinc.org",
+      "Display": "OTC - ASK DOCTOR SECTION"
+    },
+    {
+      "Code": "50568-5",
+      "System_link": "http://loinc.org",
+      "Display": "OTC - ASK DOCTOR/PHARMACIST SECTION"
+    },
+    {
+      "Code": "50570-1",
+      "System_link": "http://loinc.org",
+      "Display": "OTC - DO NOT USE SECTION"
+    },
+    {
+      "Code": "50565-1",
+      "System_link": "http://loinc.org",
+      "Display": "OTC - KEEP OUT OF REACH OF CHILDREN SECTION"
+    },
+    {
+      "Code": "53414-9",
+      "System_link": "http://loinc.org",
+      "Display": "OTC - PREGNANCY OR BREAST FEEDING SECTION"
+    },
+    {
+      "Code": "55105-1",
+      "System_link": "http://loinc.org",
+      "Display": "OTC - PURPOSE SECTION"
+    },
+    {
+      "Code": "53413-1",
+      "System_link": "http://loinc.org",
+      "Display": "OTC - QUESTIONS SECTION"
+    },
+    {
+      "Code": "50566-9",
+      "System_link": "http://loinc.org",
+      "Display": "OTC - STOP USE SECTION"
+    },
+    {
+      "Code": "50567-7",
+      "System_link": "http://loinc.org",
+      "Display": "OTC - WHEN USING SECTION"
+    },
+    {
+      "Code": "51945-4",
+      "System_link": "http://loinc.org",
+      "Display": "PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"
+    },
+    {
+      "Code": "88436-1",
+      "System_link": "http://loinc.org",
+      "Display": "PATIENT COUNSELING INFORMATION"
+    },
+    {
+      "Code": "68498-5",
+      "System_link": "http://loinc.org",
+      "Display": "PATIENT MEDICATION INFORMATION SECTION"
+    },
+    {
+      "Code": "34081-0",
+      "System_link": "http://loinc.org",
+      "Display": "PEDIATRIC USE SECTION"
+    },
+    {
+      "Code": "43681-6",
+      "System_link": "http://loinc.org",
+      "Display": "PHARMACODYNAMICS SECTION"
+    },
+    {
+      "Code": "66106-6",
+      "System_link": "http://loinc.org",
+      "Display": "PHARMACOGENOMICS SECTION"
+    },
+    {
+      "Code": "43682-4",
+      "System_link": "http://loinc.org",
+      "Display": "PHARMACOKINETICS SECTION"
+    },
+    {
+      "Code": "90375-7",
+      "System_link": "http://loinc.org",
+      "Display": "POSTMARKETING EXPERIENCE SECTION"
+    },
+    {
+      "Code": "42232-9",
+      "System_link": "http://loinc.org",
+      "Display": "PRECAUTIONS SECTION"
+    },
+    {
+      "Code": "42228-7",
+      "System_link": "http://loinc.org",
+      "Display": "PREGNANCY SECTION"
+    },
+    {
+      "Code": "43683-2",
+      "System_link": "http://loinc.org",
+      "Display": "RECENT MAJOR CHANGES SECTION"
+    },
+    {
+      "Code": "34093-5",
+      "System_link": "http://loinc.org",
+      "Display": "REFERENCES SECTION"
+    },
+    {
+      "Code": "53412-3",
+      "System_link": "http://loinc.org",
+      "Display": "RESIDUE WARNING SECTION"
+    },
+    {
+      "Code": "100382-1",
+      "System_link": "http://loinc.org",
+      "Display": "REMS ADDRESSED RISK"
+    },
+    {
+      "Code": "87523-7",
+      "System_link": "http://loinc.org",
+      "Display": "REMS ADMINISTRATIVE INFORMATION"
+    },
+    {
+      "Code": "87526-0",
+      "System_link": "http://loinc.org",
+      "Display": "REMS APPLICANT REQUIREMENTS"
+    },
+    {
+      "Code": "82344-3",
+      "System_link": "http://loinc.org",
+      "Display": "REMS COMMUNICATION"
+    },
+    {
+      "Code": "82348-4",
+      "System_link": "http://loinc.org",
+      "Display": "REMS ELEMENTS"
+    },
+    {
+      "Code": "82345-0",
+      "System_link": "http://loinc.org",
+      "Display": "REMS ELEMENTS TO ASSURE SAFE USE"
+    },
+    {
+      "Code": "82349-2",
+      "System_link": "http://loinc.org",
+      "Display": "REMS GOALS"
+    },
+    {
+      "Code": "82350-0",
+      "System_link": "http://loinc.org",
+      "Display": "REMS IMPLEMENTATION SYSTEM"
+    },
+    {
+      "Code": "82346-8",
+      "System_link": "http://loinc.org",
+      "Display": "REMS MATERIAL"
+    },
+    {
+      "Code": "82598-4",
+      "System_link": "http://loinc.org",
+      "Display": "REMS MEDICATION GUIDE"
+    },
+    {
+      "Code": "87525-2",
+      "System_link": "http://loinc.org",
+      "Display": "REMS PARTICIPANT REQUIREMENTS"
+    },
+    {
+      "Code": "87524-5",
+      "System_link": "http://loinc.org",
+      "Display": "REMS REQUIREMENTS"
+    },
+    {
+      "Code": "82347-6",
+      "System_link": "http://loinc.org",
+      "Display": "REMS SUMMARY"
+    },
+    {
+      "Code": "82352-6",
+      "System_link": "http://loinc.org",
+      "Display": "REMS TIMETABLE FOR SUBMISSION ASSESSMENTS"
+    },
+    {
+      "Code": "88828-9",
+      "System_link": "http://loinc.org",
+      "Display": "RENAL IMPAIRMENT SUBSECTION"
+    },
+    {
+      "Code": "69759-9",
+      "System_link": "http://loinc.org",
+      "Display": "RISKS"
+    },
+    {
+      "Code": "60562-6",
+      "System_link": "http://loinc.org",
+      "Display": "ROUTE, METHOD AND FREQUENCY OF ADMINISTRATION"
+    },
+    {
+      "Code": "50741-8",
+      "System_link": "http://loinc.org",
+      "Display": "SAFE HANDLING WARNING SECTION"
+    },
+    {
+      "Code": "48779-3",
+      "System_link": "http://loinc.org",
+      "Display": "SPL INDEXING DATA ELEMENTS SECTION"
+    },
+    {
+      "Code": "48780-1",
+      "System_link": "http://loinc.org",
+      "Display": "SPL PRODUCT DATA ELEMENTS SECTION"
+    },
+    {
+      "Code": "42231-1",
+      "System_link": "http://loinc.org",
+      "Display": "SPL MEDGUIDE SECTION"
+    },
+    {
+      "Code": "42230-3",
+      "System_link": "http://loinc.org",
+      "Display": "SPL PATIENT PACKAGE INSERT SECTION"
+    },
+    {
+      "Code": "42229-5",
+      "System_link": "http://loinc.org",
+      "Display": "SPL UNCLASSIFIED SECTION"
+    },
+    {
+      "Code": "69718-5",
+      "System_link": "http://loinc.org",
+      "Display": "STATEMENT OF IDENTITY SECTION"
+    },
+    {
+      "Code": "44425-7",
+      "System_link": "http://loinc.org",
+      "Display": "STORAGE AND HANDLING SECTION"
+    },
+    {
+      "Code": "60563-4",
+      "System_link": "http://loinc.org",
+      "Display": "SUMMARY OF SAFETY AND EFFECTIVENESS"
+    },
+    {
+      "Code": "34077-8",
+      "System_link": "http://loinc.org",
+      "Display": "TERATOGENIC EFFECTS SECTION"
+    },
+    {
+      "Code": "69762-3",
+      "System_link": "http://loinc.org",
+      "Display": "TROUBLESHOOTING"
+    },
+    {
+      "Code": "43684-0",
+      "System_link": "http://loinc.org",
+      "Display": "USE IN SPECIFIC POPULATIONS SECTION"
+    },
+    {
+      "Code": "54433-8",
+      "System_link": "http://loinc.org",
+      "Display": "USER SAFETY WARNINGS SECTION"
+    },
+    {
+      "Code": "50745-9",
+      "System_link": "http://loinc.org",
+      "Display": "VETERINARY INDICATIONS SECTION"
+    },
+    {
+      "Code": "43685-7",
+      "System_link": "http://loinc.org",
+      "Display": "WARNINGS AND PRECAUTIONS SECTION"
+    },
+    {
+      "Code": "34071-1",
+      "System_link": "http://loinc.org",
+      "Display": "WARNINGS SECTION"
+    }
+  ]
+}

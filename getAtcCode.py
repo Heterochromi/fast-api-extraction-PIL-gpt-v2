@@ -1,20 +1,13 @@
 from peewee import *
-import ollama
-import os
 from clientgpt import generate_gpt_max_token
-from dotenv import load_dotenv
-load_dotenv()
-db_name = os.getenv("db_name")
-user = os.getenv("db_user")
-password = os.getenv("db_password")
-host = os.getenv("db_host")
-port = os.getenv("db_port")
-db = PostgresqlDatabase(db_name, user=user, password=password, host=host, port=port)
+from db import db
+
 class Medicine(Model):
     atc_code = CharField()
     atc_name = CharField()
     class Meta:
         database = db
+        
 A = "A.Alimentary tract and metabolism"
 B = "B.Blood and blood forming organs"
 C = "C.Cardiovascular system"
@@ -32,7 +25,6 @@ S = "S.Sensory organs"
 V = "V.Various"
 firstLevel = [("A", A) , ("B", B), ("C", C), ("D", D), ("G", G), ("H", H), ("J", J), ("L", L), ("M", M), ("N", N), ("P", P), ("Q", Q), ("R", R), ("S", S), ("V", V)]
 list_salts_that_dont_affect_atc = ["sodium" , "maleate" , "hydrochloride"]
-model = os.getenv("model")
 def get_possible_atc_codes(atc_name):
     ## check if the salt is in the list of salts that dont affect the atc code and remove it from atc_name for better search
     atc_name_array = atc_name.lower().split()
