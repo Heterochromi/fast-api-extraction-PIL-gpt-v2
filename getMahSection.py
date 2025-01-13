@@ -5,7 +5,6 @@ from pydantic import BaseModel
 class Schema(BaseModel):
     marketing_authorisation_holder: list[str]
     manufacturer: list[str]
-    strengths: list[str]
     address: list[str]
     city: list[str]
     country: list[str]

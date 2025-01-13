@@ -102,8 +102,6 @@ def get_smpc(titles,content):
         print(e , "error could not split sections and get codes , please make sure the order of the sections titles is correct")
         return {"error": "error could not split sections and get codes , please make sure the order of the sections titles is correct"}
     
-
-
     try:
         header = []
         for i , section in enumerate(sections):
@@ -138,6 +136,7 @@ def get_smpc(titles,content):
             if section["code"] == "34068-7":
                 indication_usage_section = section["content"]
                 break
+        print("indication_usage_section----------------------" , indication_usage_section)
         routes = get_adminstration_routes_array(indication_usage_section)
         result.update({"routes": routes})
     except(Exception) as e:
@@ -146,7 +145,10 @@ def get_smpc(titles,content):
 
     try:
         MAH_section= []
-        MAH_section.extend(sections[-1]["content"] , sections[-2]["content"] , sections[-3]["content"])
+        MAH_section.extend(sections[-1]["content"])
+        MAH_section.extend(sections[-2]["content"])
+        MAH_section.extend(sections[-3]["content"])
+        print("MAH_section---------------------" , MAH_section)
         MAH_details = get_MAH_Details_LLM(MAH_section)
         result.update({"MAH_details": MAH_details})
     except(Exception) as e:

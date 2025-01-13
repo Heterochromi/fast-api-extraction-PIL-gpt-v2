@@ -198,6 +198,7 @@ Possible administration routes list:
 
 def get_adminstration_routes_array(section_3):
    #  response = ollama.generate(model=model , system=system_routes, prompt=prompt_routes , options = {"num_predict": 20})
+   prompt = ""
    for section_line in section_3:
       prompt += section_line
 
