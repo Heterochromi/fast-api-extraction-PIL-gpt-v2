@@ -1,0 +1,17 @@
+Code,Display,location
+FullName,Full name,header
+InventedNamePart,Invented name part,header
+ScientificNamePart,Scientific name part,header
+StrengthPart,Strength part,header
+DoseFormPart,Pharmaceutical dose form part,header
+FormulationPart,Formulation part,header?(unsure)
+IntendedUsePart,Intended use part,1st section(what is)
+PopulationPart,Target population part,2nd section (before you take) and 1st part
+ContainerPart,Container or pack part,3rd section (how to take)
+DevicePart,Device part,header
+TrademarkOrCompanyPart,Trademark or company name part,manafacturer/supplier/MAH section
+TimeOrPeriodPart,Time/Period part,3rd section (how to take)?(unsure)
+FlavorPart,Flavor part,header/6th section (furhter info)
+DelimiterPart,Delimiter part,NA
+LegacyNamePart,Legacy name,NA
+SpeciesNamePart,Target species name part,NA

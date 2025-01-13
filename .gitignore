@@ -1,0 +1,4 @@
+.env
+Apigen.pdf
+venv/
+__pycache__/

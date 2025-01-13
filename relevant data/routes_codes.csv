@@ -1,0 +1,164 @@
+code,display
+6064005,Topical 
+10547007,Otic 
+12130007,Intra-articular 
+16857009,Per vagina
+26643006,Oral 
+34206005,Subcutaneous 
+37161004,Per rectum
+37737002,Intraluminal 
+37839007,Sublingual 
+38239002,Intraperitoneal 
+45890007,Transdermal 
+46713006,Nasal 
+47625008,Intravenous 
+54471007,Buccal 
+54485002,Ophthalmic 
+58100008,Intra-arterial 
+60213007,Intramedullary 
+62226000,Intrauterine 
+72607000,Intrathecal 
+78421000,Intramuscular 
+90028008,Urethral 
+127490009,Gastrostomy 
+127491008,Jejunostomy 
+127492001,Nasogastric 
+372449004,Dental 
+372450004,Endocervical 
+372451000,Endosinusial 
+372452007,Endotracheopulmonary 
+372453002,Extra-amniotic 
+372454008,Gastroenteral 
+372457001,Gingival 
+372458006,Intraamniotic 
+372459003,Intrabursal 
+372460008,Intracardiac 
+372461007,Intracavernous 
+372462000,Intracervical  
+372463005,Intracoronary 
+372464004,Intradermal 
+372465003,Intradiscal 
+372466002,Intralesional 
+372467006,Intralymphatic 
+372468001,Intraocular 
+372469009,Intrapleural 
+372470005,Intrasternal 
+372471009,Intravesical 
+372472002,Ocular  
+372473007,Oromucosal 
+372474001,Periarticular 
+372475000,Perineural 
+372476004,Subconjunctival 
+404815008,Transmucosal  
+404818005,Intratracheal  
+404819002,Intrabiliary  
+404820008,Epidural  
+416174007,Suborbital  
+417070009,Caudal  
+417255000,Intraosseous  
+417950001,Intrathoracic  
+417985001,Enteral  
+417989007,Intraductal  
+418091004,Intratympanic  
+418114005,Intravenous central  
+418133000,Intramyometrial  
+418136008,Gastro-intestinal stoma  
+418162004,Colostomy  
+418204005,Periurethral  
+418287000,Intracoronal  
+418321004,Retrobulbar  
+418331006,Intracartilaginous  
+418401004,Intravitreal  
+418418000,Intraspinal  
+418441008,Orogastric  
+418511008,Transurethral  
+418586008,Intratendinous  
+418608002,Intracorneal  
+418664002,Oropharyngeal  
+418722009,Peribulbar  
+418730005,Nasojejunal  
+418743005,Fistula  
+418813001,Surgical drain  
+418821007,Intracameral  
+418851001,Paracervical  
+418877009,Intrasynovial  
+418887008,Intraduodenal  
+418892005,Intracisternal  
+418947002,Intratesticular  
+418987007,Intracranial  
+419021003,Tumour cavity 
+419165009,Paravertebral  
+419231003,Intrasinal  
+419243002,Transcervical  
+419320008,Subtendinous  
+419396008,Intraabdominal  
+419601003,Subgingival  
+419631009,Intraovarian  
+419684008,Ureteral  
+419762003,Peritendinous  
+419778001,Intrabronchial  
+419810008,Intraprostatic  
+419874009,Submucosal  
+419894000,Surgical cavity  
+419954003,Ileostomy  
+419993007,Intravenous peripheral  
+420047004,Periosteal  
+420163009,Esophagostomy 
+420168000,Urostomy  
+420185003,Laryngeal  
+420201002,Intrapulmonary  
+420204005,Mucous fistula  
+420218003,Nasoduodenal  
+420254004,Body cavity  
+420287000,Intraventricular  - cardiac 
+420719007,Intracerebroventricular  
+428191002,Percutaneous  
+429817007,Interstitial  
+445752009,Intraesophageal  
+445754005,Intragingival  
+445755006,Intravascular  
+445756007,Intradural  
+445767008,Intrameningeal  
+445768003,Intragastric  
+445771006,Intrapericardial  
+445913005,Intralingual  
+445941009,Intrahepatic  
+446105004,Conjunctival  
+446407004,Intraepicardial  
+446435000,Transendocardial  
+446442000,Transplacental  
+446540005,Intracerebral  
+447026006,Intraileal  
+447052000,Periodontal  
+447080003,Peridural  
+447081004,Lower respiratory tract  
+447121004,Intramammary  
+447122006,Intratumor  
+447227007,Transtympanic  
+447229005,Transtracheal  
+447694001,Respiratory tract  
+447964005,Digestive tract  
+448077001,Intraepidermal  
+448491004,Intrajejunal  
+448492006,Intracolonic  
+448598008,Cutaneous  
+697971008,Arteriovenous fistula  
+711360002,Intraneural  
+711378007,Intramural  
+714743009,Extracorporeal  
+718329006,Infiltration  
+764723001,Epilesional  
+766790006,Extracorporeal hemodialysis  
+876824003,Intradialytic 
+1078280005,Intracatheter instillation  
+1254769004,Suprachoroidal 
+1259221004,Intracorporus cavernosum  
+1.61E+12,Sublesional  
+5.87E+13,Intestinal  
+5.88E+13,Intraglandular  
+5.88E+13,Intracholangiopancreatic 
+5.88E+13,Intraportal 
+5.88E+13,Peritumoral  
+5.88E+13,Posterior juxtascleral  
+5.88E+13,Subretinal  
+6.66E+13,Sublabial 
