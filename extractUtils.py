@@ -1,7 +1,6 @@
 from difflib import SequenceMatcher
 import re
 import json
-import json_repair
 def extract_div_contents(html_string):
     # Regular expression pattern to match <div>...</div> including nested divs
     pattern = re.compile(r'<div.*?>.*?</div>', re.DOTALL)
@@ -69,25 +68,6 @@ def check_similarity(sentence1, sentence2):
     similarity_ratio = similar(sentence1, sentence2)
     # Return True if the similarity ratio is above a certain threshold, False otherwise
     return similarity_ratio
-
-
-def getValidJson(json_string):
-    # Find the content between the first { and last }
-    match = re.search(r'\{.*\}', json_string, re.DOTALL)
-    if match:
-        json_content = match.group(0)
-    else:
-        print("No valid JSON object found in the string.")
-        return
-
-    # Parse the JSON string
-    try:
-        data = json.loads(json_string)
-    except json.JSONDecodeError as e:
-        print(f"Error decoding JSON: {e}" , "trying with json_repair")
-        data = json_repair.loads(json_content)
-    return data
-    
 
 def check_similarity_with_match_word_length_in_sentence(line_one , line_two):
     line_one = remove_extra_spaces(line_one)

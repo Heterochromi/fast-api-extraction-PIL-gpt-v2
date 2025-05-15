@@ -3,3 +3,5 @@ Apigen.pdf
 venv/
 __pycache__/
 test_json/
+test.py
+test2.py
