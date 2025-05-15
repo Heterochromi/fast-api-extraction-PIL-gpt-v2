@@ -40,3 +40,18 @@ def get_parsed_html(html_content : str):
     html_parsed.sort(key=lambda x: x["line"])
     return html_parsed , soup
 
+
+
+def replace_page_content(newContent , fullHtml):
+    page_div = fullHtml.find('div', attrs={'class': 'page'})
+    if page_div:
+        new_soup = BeautifulSoup(newContent, 'html.parser')
+        page_div.clear()
+
+        if new_soup.body:
+            for child_element in list(new_soup.body.contents):
+                page_div.append(child_element.extract())
+        else:
+            for element in list(new_soup.contents): 
+                page_div.append(element.extract())
+    
