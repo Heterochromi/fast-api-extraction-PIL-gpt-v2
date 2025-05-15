@@ -1,0 +1,44 @@
+{
+  "insert_section": {
+    "section-code": "42230-3",
+    "display-value": "SPL PATIENT PACKAGE INSERT",
+    "PIL_section": "insert"
+  },
+  "header_section": {
+    "section-code": "68498-5",
+    "display-value": "PATIENT MEDICATION INFORMATION",
+    "PIL_section": "header"
+  },
+  "sections": [
+    {
+      "section-code": "34067-9",
+      "display-value": "INDICATIONS & USAGE",
+      "PIL_section": "1. What is {invented name} and what it is used for"
+    },
+    {
+      "section-code": "34070-3",
+      "display-value": "CONTRAINDICATIONS",
+      "PIL_section": "2. What you need to know before you take {invented name}"
+    },
+    {
+      "section-code": "34068-7",
+      "display-value": "DOSAGE & ADMINISTRATION",
+      "PIL_section": "3. How to take {invented name}"
+    },
+    {
+      "section-code": "34084-4",
+      "display-value": "ADVERSE REACTIONS",
+      "PIL_section": "4. Possible side effects"
+    },
+    {
+      "section-code": "44425-7",
+      "display-value": "STORAGE AND HANDLING",
+      "PIL_section": "5. How to store {invented name}"
+    },
+    {
+      "section-code": "43678-2",
+      "display-value": "DOSAGE FORMS & STRENGTHS",
+      "PIL_section": "6. Further information"
+    }
+  ]
+}

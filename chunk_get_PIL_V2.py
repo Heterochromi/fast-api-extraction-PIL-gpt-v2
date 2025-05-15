@@ -9,6 +9,40 @@ translations = {
 
 }
 
+sections = [
+    {
+      "section-code": "34067-9",
+      "display-value": "INDICATIONS & USAGE",
+      "PIL_section": "1. What is {invented name} and what it is used for"
+    },
+    {
+      "section-code": "34070-3",
+      "display-value": "CONTRAINDICATIONS",
+      "PIL_section": "2. What you need to know before you take {invented name}"
+    },
+    {
+      "section-code": "34068-7",
+      "display-value": "DOSAGE & ADMINISTRATION",
+      "PIL_section": "3. How to take {invented name}"
+    },
+    {
+      "section-code": "34084-4",
+      "display-value": "ADVERSE REACTIONS",
+      "PIL_section": "4. Possible side effects"
+    },
+    {
+      "section-code": "44425-7",
+      "display-value": "STORAGE AND HANDLING",
+      "PIL_section": "5. How to store {invented name}"
+    },
+    {
+      "section-code": "43678-2",
+      "display-value": "DOSAGE FORMS & STRENGTHS",
+      "PIL_section": "6. Further information"
+    }
+  ]
+
+
 def splitLeaflet(pdf_lines , lang = "en" or "ar"):
     if lang == "en":
         find_line = "What is in this leaflet"
@@ -87,20 +121,35 @@ def splitLeaflet(pdf_lines , lang = "en" or "ar"):
 
 
 
-# def splitHtml_ar(content : str):
-#     parsed , fullHtml = get_parsed_html(content)
-#     splitLeaflet(parsed , lang="ar")
-#     return
+# "code": "43678-2",
+# "display": "DOSAGE FORMS & STRENGTHS SECTION"
+#       "section-code": "34067-9",
+#       "display-value": "INDICATIONS & USAGE",
+#       "PIL_section": "1. What is {invented name} and what it is used for"
+# class="page"
+## most important part
+def addDivSeperationTags(all_sections):
+    for i , section in enumerate(sections):
+        n_section = all_sections[i]
+        n_section[0]['fullElement'] = f""" <div code="{section['section-code']}" display="{section['display-value']}" title="{section['PIL_section']}">""" + str(n_section[0]['fullElement'])
+        n_section[-1]['fullElement'] = str(n_section[-1]['fullElement']) + "</div>"
 
 
 
 
-def splitHtml_en(content : str):
+
+
+
+
+
+def splitHtml(content : str , lang = "en"):
     parsed , fullHtml = get_parsed_html(content)
-    header_content , what_is_in_this_leaflet_content , all_sections = splitLeaflet(parsed , lang="en")
+    header_content , what_is_in_this_leaflet_content , all_sections = splitLeaflet(parsed , lang)
     print(header_content)
     print(what_is_in_this_leaflet_content)
     print(all_sections)
+    addDivSeperationTags(all_sections)
+
     with open('resultSections.txt' , 'w' , encoding='utf-8') as file:
      file.write(f"{all_sections}")
     return
@@ -443,4 +492,4 @@ html_content= """
 """
 
 
-splitHtml_en(html_content)
+splitHtml(html_content)
