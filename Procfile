@@ -1,1 +1,1 @@
-web: uvicorn main:app --host 0.0.0.0 --port 3333 --log-level info
+web: uvicorn main:app --host 0.0.0.0 --port 3333 --log-level debug --workers 16
